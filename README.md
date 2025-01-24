@@ -12,23 +12,22 @@ Utilisation d'un dataset de tweets contenant des commentaires et leurs sentiment
 
 Suppression des URL, mentions, hashtags et caractères spéciaux.
 Conversion des textes en minuscules et suppression des stopwords.
+
 - **Tokenisation :**
 
 Fractionnement des tweets en mots individuels pour faciliter le traitement.
-- **Vectorisation avec TF-IDF :**
-
-Transformation des tokens en vecteurs numériques en utilisant la méthode TF-IDF (Term Frequency-Inverse Document Frequency).
+- **Vectorisation avec TF-IDF :* Transformation des tokens en vecteurs numériques en utilisant la méthode TF-IDF (Term Frequency-Inverse Document Frequency).
 
 - **Modélisation :**
 
 Entraînement de modèles supervisés comme Random Forest, Logistic Regression ou SVM pour prédire les sentiments.
 
-- **Évaluation :**
-
-Mesure des performances avec des métriques telles que l'accuracy, la précision, le rappel et le F1-score.
+- **Évaluation :** Mesure des performances avec des métriques telles que l'accuracy, la précision,
+- le rappel et le F1-score.
 
 **Technologies Utilisées**
-Librarie de NLP : NLTK, spaCy
-Vectorisation : Scikit-learn (TF-IDF Vectorizer)
-Modélisation : Scikit-learn
-Visualisation : Matplotlib, Seaborn
+
+- Librarie de NLP : NLTK, spaCy
+- Vectorisation : Scikit-learn (TF-IDF Vectorizer)
+- Modélisation : Scikit-learn
+- Visualisation : Matplotlib, Seaborn
