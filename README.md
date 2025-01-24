@@ -1,17 +1,18 @@
-Analyse de Sentiments sur les Commentaires de Tweets
-Contexte et Motivation
+# **Analyse de Sentiments sur les Commentaires de Tweets**
+**Contexte et Motivation**
 L'analyse de sentiments est essentielle pour comprendre les opinions des utilisateurs sur des plateformes comme Twitter. Ce projet vise à classer les tweets en sentiments positifs,
 négatifs ou neutres, permettant d'identifier les tendances et d'améliorer la prise de décision, par exemple dans le cadre du service client, du marketing ou des études de marché.
 
-Pipeline du Projet
-Collecte des Données :
+**Pipeline du Projet**
+- **Collecte des Données :**
 
 Utilisation d'un dataset de tweets contenant des commentaires et leurs sentiments associés.
-Nettoyage des Données :
+
+- **Nettoyage des Données :**
 
 Suppression des URL, mentions, hashtags et caractères spéciaux.
 Conversion des textes en minuscules et suppression des stopwords.
-Tokenisation :
+- **Tokenisation :**
 
 Fractionnement des tweets en mots individuels pour faciliter le traitement.
 Vectorisation avec TF-IDF :
